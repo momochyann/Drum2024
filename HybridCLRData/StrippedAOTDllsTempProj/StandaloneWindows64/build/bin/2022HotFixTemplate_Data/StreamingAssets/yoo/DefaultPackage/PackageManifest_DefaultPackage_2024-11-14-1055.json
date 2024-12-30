@@ -1,0 +1,151 @@
+{
+    "FileVersion": "2.0.0",
+    "EnableAddressable": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildPipeline": "BuiltinBuildPipeline",
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "2024-11-14-1055",
+    "AssetList": [
+        {
+            "Address": "Back",
+            "AssetPath": "Assets/[0]Cilent/Textures/HotInit/Back.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "bg_common_list",
+            "AssetPath": "Assets/[0]Cilent/Textures/HotInit/bg_common_list.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "bg_grant_title_01",
+            "AssetPath": "Assets/[0]Cilent/Textures/HotInit/bg_grant_title_01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "Button",
+            "AssetPath": "Assets/[0]Cilent/Textures/HotInit/Button.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "Input",
+            "AssetPath": "Assets/[0]Cilent/Textures/HotInit/Input.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "Logo",
+            "AssetPath": "Assets/[0]Cilent/Textures/Logo.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "HotBadgeConfig",
+            "AssetPath": "Assets/[0]Cilent/Config/HotBadgeConfig.asset",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "StartInit",
+            "AssetPath": "Assets/[0]Cilent/Prefabs/StartInit.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "LoadNewGameVesion",
+            "AssetPath": "Assets/[0]Cilent/UI/HotInit/LoadNewGameVesion.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "defaultpackage_assets_[0]cilent_textures_hotinit.bundle",
+            "UnityCRC": 1297285369,
+            "FileHash": "41932b2de1bc2addcbfc836635af3ba7",
+            "FileCRC": "ee0aa56d",
+            "FileSize": 131137,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_[0]cilent_textures.bundle",
+            "UnityCRC": 3596776942,
+            "FileHash": "e10bbcf02a0cec091c701f3eb7edd064",
+            "FileCRC": "7ae4fc74",
+            "FileSize": 154690,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_[0]cilent_config.bundle",
+            "UnityCRC": 3989134726,
+            "FileHash": "e75e85002dbdb1db3084100ccd1b837a",
+            "FileCRC": "22022a0c",
+            "FileSize": 1825,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_[0]cilent_prefabs.bundle",
+            "UnityCRC": 1235905074,
+            "FileHash": "03f9feb5e22f125c565eb443fef2929b",
+            "FileCRC": "9ad2d17a",
+            "FileSize": 2643,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_[0]cilent_ui_hotinit.bundle",
+            "UnityCRC": 1677472473,
+            "FileHash": "c77c408679dd891cb14d148615667453",
+            "FileCRC": "24791676",
+            "FileSize": 8557,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                0,
+                5,
+                6
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_share_assets_[0]cilent_fonts.bundle",
+            "UnityCRC": 2701797424,
+            "FileHash": "15a249968be4c24ca55721b680f44f48",
+            "FileCRC": "b2cac947",
+            "FileSize": 11238062,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_share_assets_qframework_toolkits__corekit_packagekit_markdown_resources_skin.bundle",
+            "UnityCRC": 1277831681,
+            "FileHash": "1c7deb0b719fc24c01c1e01ae822185e",
+            "FileCRC": "e405d905",
+            "FileSize": 217429,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        }
+    ]
+}
