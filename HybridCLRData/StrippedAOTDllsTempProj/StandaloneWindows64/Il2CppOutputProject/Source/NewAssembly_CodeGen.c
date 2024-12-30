@@ -1,0 +1,201 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void EmptySprite_Get_mD9D3EFD939D36F2BEE45424716CA0874CFF47233 (void);
+extern void EmptySprite_IsEmptySprite_m61B289029BD045B5DACE797573593EDF66A8C179 (void);
+extern void FreeModifier_get_Radius_m93BB6B11475452740A67C81D29DC25C930751CBB (void);
+extern void FreeModifier_set_Radius_mD743802FCFB7CDB55D4C443E31A3AE97C0298455 (void);
+extern void FreeModifier_CalculateRadius_mD3BB8EF98BF622ED073726BCC40A0CC2ECF57558 (void);
+extern void FreeModifier_OnValidate_mF5A0D3851724124414E05BA680CC5A41B09ACF84 (void);
+extern void FreeModifier__ctor_mC3C79248B866E9DA48E8C0C91BA9FA0D249D7BE0 (void);
+extern void OnlyOneEdgeModifier_get_Radius_m90B72772B1B29B4C99E6F995A1D75F2ED50EA1DD (void);
+extern void OnlyOneEdgeModifier_set_Radius_m5DBC985F6FC484FF75740A5B66030682AD73499B (void);
+extern void OnlyOneEdgeModifier_get_Side_m51A41DEBB5E5F582F9E75A10C18206A116EF30C0 (void);
+extern void OnlyOneEdgeModifier_set_Side_m5BA6E1036BB6BBE02D2DE7B4B017EB22BC1290FF (void);
+extern void OnlyOneEdgeModifier_CalculateRadius_mF542931B3AC45284D9C41FCB50EB884046C955FA (void);
+extern void OnlyOneEdgeModifier__ctor_m7600EF901834A567C316DFFD965610CE165D1115 (void);
+extern void RoundModifier_CalculateRadius_m83FE4967F4D1CC82EA9AB9DE61C17D7BB909AC35 (void);
+extern void RoundModifier__ctor_m0B5B8FD7137268B6C906C3E1E3E64096518513F2 (void);
+extern void UniformModifier_get_Radius_m40241BB11F3D5EAD17767F252203990582CA96CC (void);
+extern void UniformModifier_set_Radius_m370245E74B5709872779BC37836C94605D9BB594 (void);
+extern void UniformModifier_CalculateRadius_m97356889C7859A05DC4123A574395AE30D476479 (void);
+extern void UniformModifier__ctor_m217C058FA8B00FB3D3142E16502AC2F5884E6FEE (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEEA2BB3EAF98D5AFEF92B13961F91A0E7384FAF (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m9A1B344082ADFAEE83B6D326D9FB63BA73BAB9A8 (void);
+extern void ModifierID__ctor_m05FAD78C5C4B3194AD823FB3ACE93814B1FC94DC (void);
+extern void ModifierID_get_Name_mC5397F15B6BEED5F4A0D2B92254078F51580C527 (void);
+extern void ProceduralImage_get_DefaultProceduralImageMaterial_m0034F3FF0DC7868A14B44E73B2BD7B2EBEF307A2 (void);
+extern void ProceduralImage_set_DefaultProceduralImageMaterial_mD6EF69B1629156BD17A61432FFE6FB1B86C3D73C (void);
+extern void ProceduralImage_get_BorderWidth_m2B067B5BDFD68F462E0CCA8FB5AF9E393201488C (void);
+extern void ProceduralImage_set_BorderWidth_m0FC2AD46E0BCD75361B10512705E91390D540FB2 (void);
+extern void ProceduralImage_get_FalloffDistance_m8144DF4FB6F975D4E8EB0E8FEB901D0CB72548D6 (void);
+extern void ProceduralImage_set_FalloffDistance_mC6D5194E565BFD7006340504E42B18F944FB8EFB (void);
+extern void ProceduralImage_get_Modifier_m008C322131808E2E3AC4F76D359C79A5FE693DD2 (void);
+extern void ProceduralImage_set_Modifier_m4849C5AC20B196A54E665DB6696360E6C60839D5 (void);
+extern void ProceduralImage_get_ModifierType_mCD34A35B31F6D003FBEE0E3DE5410DD9BFBC9BF1 (void);
+extern void ProceduralImage_set_ModifierType_mEEBEF27537960F170657EC8ED011D9BFCA44706B (void);
+extern void ProceduralImage_OnEnable_m0C999F21E13194CC6F23B2063D1B030C0F045859 (void);
+extern void ProceduralImage_OnDisable_mF0F2EC6C943A6A63C661F98C96EAE4D9289A08EB (void);
+extern void ProceduralImage_Init_m15ABB76785950BD2D7EA73768D4CFA0C08D7447C (void);
+extern void ProceduralImage_OnVerticesDirty_m7A57419E0D113B0FA605CF3ECB6940E5B610A1AB (void);
+extern void ProceduralImage_FixTexCoordsInCanvas_mDCB58878EB4A612D5EF55A8238254C0308A2D381 (void);
+extern void ProceduralImage_FixTexCoordsInCanvas_m60F52C2EAEA3C8F30B638D50FCF715EFB2B2F234 (void);
+extern void ProceduralImage_FixRadius_m8D141C9E2662342198E9D445BEFCACDE4E0C27E8 (void);
+extern void ProceduralImage_OnPopulateMesh_m6E60F173E8EB3982C28AE248A8CA0494CD07379D (void);
+extern void ProceduralImage_OnTransformParentChanged_m83EDBBE1B7B62DB30A9D68520B43892D56F61F6F (void);
+extern void ProceduralImage_CalculateInfo_mF4DBFA030A92CCEE82B4B8D9C0F4582F9F694122 (void);
+extern void ProceduralImage_EncodeAllInfoIntoVertices_mB5645052975AF07A9055C759E133BB262EDF3FC5 (void);
+extern void ProceduralImage_EncodeFloats_0_1_16_16_m61EC63378E4B8DF1EE221FC8DB2212A19C4F3CC7 (void);
+extern void ProceduralImage_get_material_mCF0956F8111663DC2A54C4E5ED84CF649604A545 (void);
+extern void ProceduralImage_set_material_m7F5AD19A6536689EF76C41C44CCB0DC91C05D430 (void);
+extern void ProceduralImage__ctor_m5B9B99579FF43EB9E4DB979DECB3FBF4CF4B57B7 (void);
+extern void ProceduralImageInfo__ctor_mB2F9D5A7C7F47BE344DBE5D4FFD3F60FC98C6487 (void);
+extern void ProceduralImageModifier_get__Graphic_m5DF4EC1DAC670BD626EB111C5F93E7563360A682 (void);
+extern void ProceduralImageModifier__ctor_mF757746E29B23850DDFAE13EE5B42F2E4069F6C4 (void);
+static Il2CppMethodPointer s_methodPointers[52] = 
+{
+	EmptySprite_Get_mD9D3EFD939D36F2BEE45424716CA0874CFF47233,
+	EmptySprite_IsEmptySprite_m61B289029BD045B5DACE797573593EDF66A8C179,
+	FreeModifier_get_Radius_m93BB6B11475452740A67C81D29DC25C930751CBB,
+	FreeModifier_set_Radius_mD743802FCFB7CDB55D4C443E31A3AE97C0298455,
+	FreeModifier_CalculateRadius_mD3BB8EF98BF622ED073726BCC40A0CC2ECF57558,
+	FreeModifier_OnValidate_mF5A0D3851724124414E05BA680CC5A41B09ACF84,
+	FreeModifier__ctor_mC3C79248B866E9DA48E8C0C91BA9FA0D249D7BE0,
+	OnlyOneEdgeModifier_get_Radius_m90B72772B1B29B4C99E6F995A1D75F2ED50EA1DD,
+	OnlyOneEdgeModifier_set_Radius_m5DBC985F6FC484FF75740A5B66030682AD73499B,
+	OnlyOneEdgeModifier_get_Side_m51A41DEBB5E5F582F9E75A10C18206A116EF30C0,
+	OnlyOneEdgeModifier_set_Side_m5BA6E1036BB6BBE02D2DE7B4B017EB22BC1290FF,
+	OnlyOneEdgeModifier_CalculateRadius_mF542931B3AC45284D9C41FCB50EB884046C955FA,
+	OnlyOneEdgeModifier__ctor_m7600EF901834A567C316DFFD965610CE165D1115,
+	RoundModifier_CalculateRadius_m83FE4967F4D1CC82EA9AB9DE61C17D7BB909AC35,
+	RoundModifier__ctor_m0B5B8FD7137268B6C906C3E1E3E64096518513F2,
+	UniformModifier_get_Radius_m40241BB11F3D5EAD17767F252203990582CA96CC,
+	UniformModifier_set_Radius_m370245E74B5709872779BC37836C94605D9BB594,
+	UniformModifier_CalculateRadius_m97356889C7859A05DC4123A574395AE30D476479,
+	UniformModifier__ctor_m217C058FA8B00FB3D3142E16502AC2F5884E6FEE,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEEA2BB3EAF98D5AFEF92B13961F91A0E7384FAF,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m9A1B344082ADFAEE83B6D326D9FB63BA73BAB9A8,
+	ModifierID__ctor_m05FAD78C5C4B3194AD823FB3ACE93814B1FC94DC,
+	ModifierID_get_Name_mC5397F15B6BEED5F4A0D2B92254078F51580C527,
+	ProceduralImage_get_DefaultProceduralImageMaterial_m0034F3FF0DC7868A14B44E73B2BD7B2EBEF307A2,
+	ProceduralImage_set_DefaultProceduralImageMaterial_mD6EF69B1629156BD17A61432FFE6FB1B86C3D73C,
+	ProceduralImage_get_BorderWidth_m2B067B5BDFD68F462E0CCA8FB5AF9E393201488C,
+	ProceduralImage_set_BorderWidth_m0FC2AD46E0BCD75361B10512705E91390D540FB2,
+	ProceduralImage_get_FalloffDistance_m8144DF4FB6F975D4E8EB0E8FEB901D0CB72548D6,
+	ProceduralImage_set_FalloffDistance_mC6D5194E565BFD7006340504E42B18F944FB8EFB,
+	ProceduralImage_get_Modifier_m008C322131808E2E3AC4F76D359C79A5FE693DD2,
+	ProceduralImage_set_Modifier_m4849C5AC20B196A54E665DB6696360E6C60839D5,
+	ProceduralImage_get_ModifierType_mCD34A35B31F6D003FBEE0E3DE5410DD9BFBC9BF1,
+	ProceduralImage_set_ModifierType_mEEBEF27537960F170657EC8ED011D9BFCA44706B,
+	ProceduralImage_OnEnable_m0C999F21E13194CC6F23B2063D1B030C0F045859,
+	ProceduralImage_OnDisable_mF0F2EC6C943A6A63C661F98C96EAE4D9289A08EB,
+	ProceduralImage_Init_m15ABB76785950BD2D7EA73768D4CFA0C08D7447C,
+	ProceduralImage_OnVerticesDirty_m7A57419E0D113B0FA605CF3ECB6940E5B610A1AB,
+	ProceduralImage_FixTexCoordsInCanvas_mDCB58878EB4A612D5EF55A8238254C0308A2D381,
+	ProceduralImage_FixTexCoordsInCanvas_m60F52C2EAEA3C8F30B638D50FCF715EFB2B2F234,
+	ProceduralImage_FixRadius_m8D141C9E2662342198E9D445BEFCACDE4E0C27E8,
+	ProceduralImage_OnPopulateMesh_m6E60F173E8EB3982C28AE248A8CA0494CD07379D,
+	ProceduralImage_OnTransformParentChanged_m83EDBBE1B7B62DB30A9D68520B43892D56F61F6F,
+	ProceduralImage_CalculateInfo_mF4DBFA030A92CCEE82B4B8D9C0F4582F9F694122,
+	ProceduralImage_EncodeAllInfoIntoVertices_mB5645052975AF07A9055C759E133BB262EDF3FC5,
+	ProceduralImage_EncodeFloats_0_1_16_16_m61EC63378E4B8DF1EE221FC8DB2212A19C4F3CC7,
+	ProceduralImage_get_material_mCF0956F8111663DC2A54C4E5ED84CF649604A545,
+	ProceduralImage_set_material_m7F5AD19A6536689EF76C41C44CCB0DC91C05D430,
+	ProceduralImage__ctor_m5B9B99579FF43EB9E4DB979DECB3FBF4CF4B57B7,
+	ProceduralImageInfo__ctor_mB2F9D5A7C7F47BE344DBE5D4FFD3F60FC98C6487,
+	ProceduralImageModifier_get__Graphic_m5DF4EC1DAC670BD626EB111C5F93E7563360A682,
+	NULL,
+	ProceduralImageModifier__ctor_mF757746E29B23850DDFAE13EE5B42F2E4069F6C4,
+};
+extern void ProceduralImageInfo__ctor_mB2F9D5A7C7F47BE344DBE5D4FFD3F60FC98C6487_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] = 
+{
+	{ 0x06000031, ProceduralImageInfo__ctor_mB2F9D5A7C7F47BE344DBE5D4FFD3F60FC98C6487_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[52] = 
+{
+	17921,
+	16265,
+	10280,
+	8386,
+	7625,
+	10288,
+	10288,
+	10200,
+	8305,
+	10099,
+	8208,
+	7625,
+	10288,
+	7625,
+	10288,
+	10200,
+	8305,
+	7625,
+	10288,
+	17994,
+	10288,
+	8243,
+	10135,
+	17921,
+	17032,
+	10200,
+	8305,
+	10200,
+	8305,
+	10135,
+	8243,
+	10135,
+	8243,
+	10288,
+	10288,
+	10288,
+	10288,
+	10288,
+	8243,
+	7627,
+	8243,
+	10288,
+	10152,
+	4712,
+	3768,
+	10135,
+	8243,
+	10288,
+	494,
+	10135,
+	0,
+	10288,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_NewAssembly_CodeGenModule;
+const Il2CppCodeGenModule g_NewAssembly_CodeGenModule = 
+{
+	"NewAssembly.dll",
+	52,
+	s_methodPointers,
+	1,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
