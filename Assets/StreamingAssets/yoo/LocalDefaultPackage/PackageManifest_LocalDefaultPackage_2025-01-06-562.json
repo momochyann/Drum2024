@@ -1,0 +1,204 @@
+{
+    "FileVersion": "2.0.0",
+    "EnableAddressable": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildPipeline": "BuiltinBuildPipeline",
+    "PackageName": "LocalDefaultPackage",
+    "PackageVersion": "2025-01-06-562",
+    "AssetList": [
+        {
+            "Address": "ChangeSceneButton",
+            "AssetPath": "Assets/[1]Local/UI/GameStartScene/ChangeSceneButton.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "LoadNewGameVesion",
+            "AssetPath": "Assets/[1]Local/UI/HotInit/LoadNewGameVesion.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "SerialPortSetPanel",
+            "AssetPath": "Assets/[1]Local/UI/SerialPortSetPanel.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Back",
+            "AssetPath": "Assets/[1]Local/Textures/HotInit/Back.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "bg_common_list",
+            "AssetPath": "Assets/[1]Local/Textures/HotInit/bg_common_list.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "bg_grant_title_01",
+            "AssetPath": "Assets/[1]Local/Textures/HotInit/bg_grant_title_01.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "Button",
+            "AssetPath": "Assets/[1]Local/Textures/HotInit/Button.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "Input",
+            "AssetPath": "Assets/[1]Local/Textures/HotInit/Input.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "星球",
+            "AssetPath": "Assets/[1]Local/Textures/节奏模式/星球.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4
+        },
+        {
+            "Address": "星球背景",
+            "AssetPath": "Assets/[1]Local/Textures/节奏模式/星球背景.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4
+        },
+        {
+            "Address": "横条",
+            "AssetPath": "Assets/[1]Local/Textures/节奏模式/横条.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4
+        },
+        {
+            "Address": "空横条",
+            "AssetPath": "Assets/[1]Local/Textures/节奏模式/空横条.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4
+        },
+        {
+            "Address": "背景",
+            "AssetPath": "Assets/[1]Local/Textures/节奏模式/背景.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4
+        },
+        {
+            "Address": "节奏模式 效果图",
+            "AssetPath": "Assets/[1]Local/Textures/节奏模式/节奏模式 效果图.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4
+        },
+        {
+            "Address": "飞船",
+            "AssetPath": "Assets/[1]Local/Textures/节奏模式/飞船.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4
+        },
+        {
+            "Address": "飞波正点体",
+            "AssetPath": "Assets/[1]Local/Fonts/飞波正点体.otf",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "localdefaultpackage_assets_[1]local_ui_gamestartscene.bundle",
+            "UnityCRC": 1821359481,
+            "FileHash": "11b0ab7f0faa0d78ad82b80159f0dedb",
+            "FileCRC": "f33e67e8",
+            "FileSize": 9597,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                5
+            ]
+        },
+        {
+            "BundleName": "localdefaultpackage_assets_[1]local_ui_hotinit.bundle",
+            "UnityCRC": 1265368055,
+            "FileHash": "c612153438a28d92d0ab130991928ab4",
+            "FileCRC": "c33f919d",
+            "FileSize": 8560,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                5,
+                3,
+                6
+            ]
+        },
+        {
+            "BundleName": "localdefaultpackage_assets_[1]local_ui.bundle",
+            "UnityCRC": 939445474,
+            "FileHash": "6379c058a60eb5b8078a42a169e0c514",
+            "FileCRC": "4dc6181d",
+            "FileSize": 12580,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                3
+            ]
+        },
+        {
+            "BundleName": "localdefaultpackage_assets_[1]local_textures_hotinit.bundle",
+            "UnityCRC": 714150396,
+            "FileHash": "6b2f27bd1d4add5a38599c1ff978c0f9",
+            "FileCRC": "2ef379f5",
+            "FileSize": 131141,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "localdefaultpackage_assets_[1]local_textures_节奏模式.bundle",
+            "UnityCRC": 3887481378,
+            "FileHash": "fb8770ecda5d9f178e968351920490fc",
+            "FileCRC": "66014389",
+            "FileSize": 1835641,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "localdefaultpackage_assets_[1]local_fonts.bundle",
+            "UnityCRC": 1966946892,
+            "FileHash": "7d6ec352ca929197bd456b2329c146f1",
+            "FileCRC": "770b7f1f",
+            "FileSize": 11238057,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "localdefaultpackage_share_assets_qframework_toolkits__corekit_packagekit_markdown_resources_skin.bundle",
+            "UnityCRC": 4121133156,
+            "FileHash": "41157897533f3276f424a3e12e87861b",
+            "FileCRC": "0505992e",
+            "FileSize": 217433,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        }
+    ]
+}

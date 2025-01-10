@@ -17,7 +17,7 @@ MonoBehaviour:
   UniqueBundleName: 1
   Packages:
   - PackageName: DefaultPackage
-    PackageDesc: 
+    PackageDesc: "\u8D44\u6E90\u5305[\u53EF\u66F4\u65B0]"
     EnableAddressable: 1
     LocationToLower: 0
     IncludeAssetGUID: 0
@@ -129,7 +129,7 @@ MonoBehaviour:
         AssetTags: 
         UserData: 
   - PackageName: RawFilePackage
-    PackageDesc: 
+    PackageDesc: "\u4EE3\u7801\u5305"
     EnableAddressable: 1
     LocationToLower: 0
     IncludeAssetGUID: 0
@@ -150,7 +150,7 @@ MonoBehaviour:
         AssetTags: 
         UserData: 
   - PackageName: LocalRawFilePackage
-    PackageDesc: 
+    PackageDesc: "\u672C\u5730\u4EE3\u7801\u5305"
     EnableAddressable: 1
     LocationToLower: 0
     IncludeAssetGUID: 0
@@ -158,7 +158,7 @@ MonoBehaviour:
     IgnoreRuleName: NormalIgnoreRule
     Groups:
     - GroupName: CodeMetadata
-      GroupDesc: "\u5143\u6570\u636E"
+      GroupDesc: "\u672C\u5730\u5143\u6570\u636E"
       AssetTags: 
       ActiveRuleName: EnableGroup
       Collectors:
@@ -170,16 +170,76 @@ MonoBehaviour:
         FilterRuleName: CollectAll
         AssetTags: 
         UserData: 
-  - PackageName: LoaclDefaultPackage
-    PackageDesc: 
-    EnableAddressable: 0
+  - PackageName: LocalDefaultPackage
+    PackageDesc: "\u672C\u5730\u8D44\u6E90\u5305"
+    EnableAddressable: 1
     LocationToLower: 0
     IncludeAssetGUID: 0
     AutoCollectShaders: 1
     IgnoreRuleName: NormalIgnoreRule
     Groups:
     - GroupName: UI
-      GroupDesc: "ui\u754C\u9762\u9884\u5236\u4F53"
+      GroupDesc: "\u672C\u5730UI\u754C\u9762\u9884\u5236\u4F53"
       AssetTags: 
       ActiveRuleName: EnableGroup
-      Collectors: []
+      Collectors:
+      - CollectPath: Assets/[1]Local/UI
+        CollectorGUID: 3755c9a0ca6ab224f8b218ac618a1d44
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+    - GroupName: LocalTextures
+      GroupDesc: "\u672C\u5730\u56FE\u7247"
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/[1]Local/Textures
+        CollectorGUID: e314e90aa6c93c842b41ccab9c2ff552
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+    - GroupName: PreFabs
+      GroupDesc: "\u672C\u5730\u9884\u5236\u4F53"
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/[1]Local/Prefabs
+        CollectorGUID: 0c1ef4a2d5e59534fbc8e593bde07496
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+    - GroupName: Scene
+      GroupDesc: "\u672C\u5730\u573A\u666F"
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/[1]Local/Scenes
+        CollectorGUID: cb22e15a8b4fcdb4c88bdf67af72c6b4
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+    - GroupName: Fonts
+      GroupDesc: "\u672C\u5730\u5B57\u4F53\u5305"
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/[1]Local/Fonts
+        CollectorGUID: 7881352f2dc574f458bd3aab4bdac5a0
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 

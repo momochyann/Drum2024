@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 2413073140
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: localdefaultpackage_assets_[1]local_ui_gamestartscene.bundle
+      Dependencies:
+        Dependency_0: localdefaultpackage_assets_[1]local_fonts.bundle
+    Info_1:
+      Name: localdefaultpackage_assets_[1]local_ui_hotinit.bundle
+      Dependencies:
+        Dependency_0: localdefaultpackage_assets_[1]local_textures_hotinit.bundle
+        Dependency_1: localdefaultpackage_assets_[1]local_fonts.bundle
+        Dependency_2: localdefaultpackage_share_assets_qframework_toolkits__corekit_packagekit_markdown_resources_skin.bundle
+    Info_2:
+      Name: localdefaultpackage_assets_[1]local_ui.bundle
+      Dependencies:
+        Dependency_0: localdefaultpackage_assets_[1]local_textures_hotinit.bundle
+    Info_3:
+      Name: localdefaultpackage_assets_[1]local_textures_hotinit.bundle
+      Dependencies: {}
+    Info_4:
+      Name: "localdefaultpackage_assets_[1]local_textures_\u8282\u594F\u6A21\u5F0F.bundle"
+      Dependencies: {}
+    Info_5:
+      Name: localdefaultpackage_assets_[1]local_fonts.bundle
+      Dependencies: {}
+    Info_6:
+      Name: localdefaultpackage_share_assets_qframework_toolkits__corekit_packagekit_markdown_resources_skin.bundle
+      Dependencies: {}

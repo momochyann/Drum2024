@@ -32,11 +32,15 @@ public class HotFixAssetsProgress : MonoBehaviour
     }
     public void PlaySupplementaryMetadataLoadingAnimation(float progress)
     {
+        float duration = 0.3f;
+        #if UNITY_EDITOR
+        duration = 0.01f;
+        #endif
         string tipText = progress == 1 ? "加载数据完成,准备进入" : null;
         AddDynamicLoadingAnimation(DOTween.To(_value =>
             {
                 progressImage.fillAmount = _value;
-            }, _lastSetProgress, progress, 0.3f).SetEase(Ease.Linear), tipText);
+            }, _lastSetProgress, progress, duration).SetEase(Ease.Linear), tipText);
         _lastSetProgress = progress;
     }
 
