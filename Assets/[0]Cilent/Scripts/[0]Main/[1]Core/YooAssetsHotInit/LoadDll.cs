@@ -110,6 +110,7 @@ public class LoadDll : MonoBehaviour
         }
 
         YooAssets.Initialize();
+        await LoadLocalPackage("LocalDefaultPackage", EDefaultBuildPipeline.BuiltinBuildPipeline);
         await LoadLocalPackage("LocalRawFilePackage", EDefaultBuildPipeline.RawFileBuildPipeline);
         await DownLoadYooAssets("DefaultPackage", EDefaultBuildPipeline.BuiltinBuildPipeline, isLocal);
         await DownLoadYooAssets("RawFilePackage", EDefaultBuildPipeline.RawFileBuildPipeline, isLocal);

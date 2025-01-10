@@ -43,6 +43,36 @@ MonoBehaviour:
   - PackageName: DefaultPackage
     FileName: OutputCache.manifest
     FileCRC32: ef0f558b
+  - PackageName: LocalDefaultPackage
+    FileName: 11b0ab7f0faa0d78ad82b80159f0dedb.bundle
+    FileCRC32: f33e67e8
+  - PackageName: LocalDefaultPackage
+    FileName: 41157897533f3276f424a3e12e87861b.bundle
+    FileCRC32: 0505992e
+  - PackageName: LocalDefaultPackage
+    FileName: 6379c058a60eb5b8078a42a169e0c514.bundle
+    FileCRC32: 4dc6181d
+  - PackageName: LocalDefaultPackage
+    FileName: 6b2f27bd1d4add5a38599c1ff978c0f9.bundle
+    FileCRC32: 2ef379f5
+  - PackageName: LocalDefaultPackage
+    FileName: 7d6ec352ca929197bd456b2329c146f1.bundle
+    FileCRC32: 770b7f1f
+  - PackageName: LocalDefaultPackage
+    FileName: BuildReport_LocalDefaultPackage_2025-01-06-562.json
+    FileCRC32: c187710d
+  - PackageName: LocalDefaultPackage
+    FileName: c612153438a28d92d0ab130991928ab4.bundle
+    FileCRC32: c33f919d
+  - PackageName: LocalDefaultPackage
+    FileName: fb8770ecda5d9f178e968351920490fc.bundle
+    FileCRC32: 66014389
+  - PackageName: LocalDefaultPackage
+    FileName: OutputCache
+    FileCRC32: 115fe64b
+  - PackageName: LocalDefaultPackage
+    FileName: OutputCache.manifest
+    FileCRC32: cf47eb76
   - PackageName: LocalRawFilePackage
     FileName: 0f17fc9771051490c3db43ad1d869473.rawfile
     FileCRC32: bf5841f9
@@ -71,8 +101,8 @@ MonoBehaviour:
     FileName: a40720c7b13dc2ed50336f7b9e5cc39c.rawfile
     FileCRC32: 03de9ac8
   - PackageName: LocalRawFilePackage
-    FileName: BuildReport_LocalRawFilePackage_2024-12-27-872.json
-    FileCRC32: 4c516cfe
+    FileName: BuildReport_LocalRawFilePackage_2025-01-06-562.json
+    FileCRC32: a24ad05b
   - PackageName: LocalRawFilePackage
     FileName: c278d7f5c05b8470da58390f1a1efaa9.rawfile
     FileCRC32: 451dfad9

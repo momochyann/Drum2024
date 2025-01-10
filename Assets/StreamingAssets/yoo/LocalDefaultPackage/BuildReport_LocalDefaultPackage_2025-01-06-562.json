@@ -1,0 +1,302 @@
+{
+    "Summary": {
+        "YooVersion": "2.1.2",
+        "UnityVersion": "2022.3.44f1c1",
+        "BuildDate": "2025/1/6 9:22:43",
+        "BuildSeconds": 8,
+        "BuildTarget": 19,
+        "BuildMode": 0,
+        "BuildPipeline": "BuiltinBuildPipeline",
+        "BuildPackageName": "LocalDefaultPackage",
+        "BuildPackageVersion": "2025-01-06-562",
+        "UniqueBundleName": true,
+        "EnableAddressable": true,
+        "LocationToLower": false,
+        "IncludeAssetGUID": false,
+        "AutoCollectShaders": true,
+        "IgnoreRuleName": "YooAsset.Editor.NormalIgnoreRule",
+        "EnableSharePackRule": true,
+        "EncryptionClassName": "null",
+        "FileNameStyle": 0,
+        "CompressOption": 2,
+        "DisableWriteTypeTree": false,
+        "IgnoreTypeTreeChanges": true,
+        "AssetFileTotalCount": 18,
+        "MainAssetTotalCount": 16,
+        "AllBundleTotalCount": 7,
+        "AllBundleTotalSize": 13453009,
+        "EncryptedBundleTotalCount": 0,
+        "EncryptedBundleTotalSize": 0
+    },
+    "AssetInfos": [
+        {
+            "Address": "ChangeSceneButton",
+            "AssetPath": "Assets/[1]Local/UI/GameStartScene/ChangeSceneButton.prefab",
+            "AssetGUID": "8b38cb560295d564e9d0318c4f6ef7f0",
+            "AssetTags": [],
+            "MainBundleName": "localdefaultpackage_assets_[1]local_ui_gamestartscene.bundle",
+            "MainBundleSize": 9597,
+            "DependAssets": [
+                "Assets/[1]Local/Fonts/飞波正点体.otf"
+            ]
+        },
+        {
+            "Address": "LoadNewGameVesion",
+            "AssetPath": "Assets/[1]Local/UI/HotInit/LoadNewGameVesion.prefab",
+            "AssetGUID": "0c3bcd621f743e64a90b99335cb0ca7e",
+            "AssetTags": [],
+            "MainBundleName": "localdefaultpackage_assets_[1]local_ui_hotinit.bundle",
+            "MainBundleSize": 8560,
+            "DependAssets": [
+                "Assets/[1]Local/Textures/HotInit/Button.png",
+                "Assets/[1]Local/Fonts/飞波正点体.otf",
+                "Assets/[1]Local/Textures/HotInit/Input.png",
+                "Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/SourceCodePro-Light.otf",
+                "Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/SourceCodePro-Regular.otf",
+                "Assets/[1]Local/Textures/HotInit/Back.png"
+            ]
+        },
+        {
+            "Address": "SerialPortSetPanel",
+            "AssetPath": "Assets/[1]Local/UI/SerialPortSetPanel.prefab",
+            "AssetGUID": "01d20df02820afd4c9f432bcd63bf7c2",
+            "AssetTags": [],
+            "MainBundleName": "localdefaultpackage_assets_[1]local_ui.bundle",
+            "MainBundleSize": 12580,
+            "DependAssets": [
+                "Assets/[1]Local/Textures/HotInit/Button.png",
+                "Assets/[1]Local/Textures/HotInit/Back.png"
+            ]
+        },
+        {
+            "Address": "Back",
+            "AssetPath": "Assets/[1]Local/Textures/HotInit/Back.png",
+            "AssetGUID": "00e0f1581d572bb4e9a397b749558580",
+            "AssetTags": [],
+            "MainBundleName": "localdefaultpackage_assets_[1]local_textures_hotinit.bundle",
+            "MainBundleSize": 131141,
+            "DependAssets": []
+        },
+        {
+            "Address": "bg_common_list",
+            "AssetPath": "Assets/[1]Local/Textures/HotInit/bg_common_list.png",
+            "AssetGUID": "0a49ae1b608a8424d815e64ab1f888f9",
+            "AssetTags": [],
+            "MainBundleName": "localdefaultpackage_assets_[1]local_textures_hotinit.bundle",
+            "MainBundleSize": 131141,
+            "DependAssets": []
+        },
+        {
+            "Address": "bg_grant_title_01",
+            "AssetPath": "Assets/[1]Local/Textures/HotInit/bg_grant_title_01.png",
+            "AssetGUID": "00f6b445803372f47a663bb8b9b70891",
+            "AssetTags": [],
+            "MainBundleName": "localdefaultpackage_assets_[1]local_textures_hotinit.bundle",
+            "MainBundleSize": 131141,
+            "DependAssets": []
+        },
+        {
+            "Address": "Button",
+            "AssetPath": "Assets/[1]Local/Textures/HotInit/Button.png",
+            "AssetGUID": "ac1b1da71a3458d41b6d10efecf4e1bc",
+            "AssetTags": [],
+            "MainBundleName": "localdefaultpackage_assets_[1]local_textures_hotinit.bundle",
+            "MainBundleSize": 131141,
+            "DependAssets": []
+        },
+        {
+            "Address": "Input",
+            "AssetPath": "Assets/[1]Local/Textures/HotInit/Input.png",
+            "AssetGUID": "37bbfac87904eb6418c5d53d8339f5c8",
+            "AssetTags": [],
+            "MainBundleName": "localdefaultpackage_assets_[1]local_textures_hotinit.bundle",
+            "MainBundleSize": 131141,
+            "DependAssets": []
+        },
+        {
+            "Address": "星球",
+            "AssetPath": "Assets/[1]Local/Textures/节奏模式/星球.png",
+            "AssetGUID": "39948f0ab935df540af09d7fedbfbfa1",
+            "AssetTags": [],
+            "MainBundleName": "localdefaultpackage_assets_[1]local_textures_节奏模式.bundle",
+            "MainBundleSize": 1835641,
+            "DependAssets": []
+        },
+        {
+            "Address": "星球背景",
+            "AssetPath": "Assets/[1]Local/Textures/节奏模式/星球背景.png",
+            "AssetGUID": "b6196a65d7ff212428959d6cb85fb24d",
+            "AssetTags": [],
+            "MainBundleName": "localdefaultpackage_assets_[1]local_textures_节奏模式.bundle",
+            "MainBundleSize": 1835641,
+            "DependAssets": []
+        },
+        {
+            "Address": "横条",
+            "AssetPath": "Assets/[1]Local/Textures/节奏模式/横条.png",
+            "AssetGUID": "3537e5c75836c784b94167e9885d75ee",
+            "AssetTags": [],
+            "MainBundleName": "localdefaultpackage_assets_[1]local_textures_节奏模式.bundle",
+            "MainBundleSize": 1835641,
+            "DependAssets": []
+        },
+        {
+            "Address": "空横条",
+            "AssetPath": "Assets/[1]Local/Textures/节奏模式/空横条.png",
+            "AssetGUID": "5356fdce6145d614a8d366da484e6bde",
+            "AssetTags": [],
+            "MainBundleName": "localdefaultpackage_assets_[1]local_textures_节奏模式.bundle",
+            "MainBundleSize": 1835641,
+            "DependAssets": []
+        },
+        {
+            "Address": "背景",
+            "AssetPath": "Assets/[1]Local/Textures/节奏模式/背景.png",
+            "AssetGUID": "48a62941f95ea3b4290c2f5b3b1e6152",
+            "AssetTags": [],
+            "MainBundleName": "localdefaultpackage_assets_[1]local_textures_节奏模式.bundle",
+            "MainBundleSize": 1835641,
+            "DependAssets": []
+        },
+        {
+            "Address": "节奏模式 效果图",
+            "AssetPath": "Assets/[1]Local/Textures/节奏模式/节奏模式 效果图.png",
+            "AssetGUID": "e34bead714a71fa42909a9bfe2e298c9",
+            "AssetTags": [],
+            "MainBundleName": "localdefaultpackage_assets_[1]local_textures_节奏模式.bundle",
+            "MainBundleSize": 1835641,
+            "DependAssets": []
+        },
+        {
+            "Address": "飞船",
+            "AssetPath": "Assets/[1]Local/Textures/节奏模式/飞船.png",
+            "AssetGUID": "76be3bb6ff0be884f903b39916ec03f8",
+            "AssetTags": [],
+            "MainBundleName": "localdefaultpackage_assets_[1]local_textures_节奏模式.bundle",
+            "MainBundleSize": 1835641,
+            "DependAssets": []
+        },
+        {
+            "Address": "飞波正点体",
+            "AssetPath": "Assets/[1]Local/Fonts/飞波正点体.otf",
+            "AssetGUID": "277416da4ccb3d841a7b13e1659c40a9",
+            "AssetTags": [],
+            "MainBundleName": "localdefaultpackage_assets_[1]local_fonts.bundle",
+            "MainBundleSize": 11238057,
+            "DependAssets": []
+        }
+    ],
+    "BundleInfos": [
+        {
+            "BundleName": "localdefaultpackage_assets_[1]local_ui_gamestartscene.bundle",
+            "FileName": "11b0ab7f0faa0d78ad82b80159f0dedb.bundle",
+            "FileHash": "11b0ab7f0faa0d78ad82b80159f0dedb",
+            "FileCRC": "f33e67e8",
+            "FileSize": 9597,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "localdefaultpackage_assets_[1]local_fonts.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/[1]Local/UI/GameStartScene/ChangeSceneButton.prefab"
+            ]
+        },
+        {
+            "BundleName": "localdefaultpackage_assets_[1]local_ui_hotinit.bundle",
+            "FileName": "c612153438a28d92d0ab130991928ab4.bundle",
+            "FileHash": "c612153438a28d92d0ab130991928ab4",
+            "FileCRC": "c33f919d",
+            "FileSize": 8560,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "localdefaultpackage_assets_[1]local_fonts.bundle",
+                "localdefaultpackage_assets_[1]local_textures_hotinit.bundle",
+                "localdefaultpackage_share_assets_qframework_toolkits__corekit_packagekit_markdown_resources_skin.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/[1]Local/UI/HotInit/LoadNewGameVesion.prefab"
+            ]
+        },
+        {
+            "BundleName": "localdefaultpackage_assets_[1]local_ui.bundle",
+            "FileName": "6379c058a60eb5b8078a42a169e0c514.bundle",
+            "FileHash": "6379c058a60eb5b8078a42a169e0c514",
+            "FileCRC": "4dc6181d",
+            "FileSize": 12580,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "localdefaultpackage_assets_[1]local_textures_hotinit.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/[1]Local/UI/SerialPortSetPanel.prefab"
+            ]
+        },
+        {
+            "BundleName": "localdefaultpackage_assets_[1]local_textures_hotinit.bundle",
+            "FileName": "6b2f27bd1d4add5a38599c1ff978c0f9.bundle",
+            "FileHash": "6b2f27bd1d4add5a38599c1ff978c0f9",
+            "FileCRC": "2ef379f5",
+            "FileSize": 131141,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/[1]Local/Textures/HotInit/Back.png",
+                "Assets/[1]Local/Textures/HotInit/bg_common_list.png",
+                "Assets/[1]Local/Textures/HotInit/bg_grant_title_01.png",
+                "Assets/[1]Local/Textures/HotInit/Button.png",
+                "Assets/[1]Local/Textures/HotInit/Input.png"
+            ]
+        },
+        {
+            "BundleName": "localdefaultpackage_assets_[1]local_textures_节奏模式.bundle",
+            "FileName": "fb8770ecda5d9f178e968351920490fc.bundle",
+            "FileHash": "fb8770ecda5d9f178e968351920490fc",
+            "FileCRC": "66014389",
+            "FileSize": 1835641,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/[1]Local/Textures/节奏模式/星球.png",
+                "Assets/[1]Local/Textures/节奏模式/星球背景.png",
+                "Assets/[1]Local/Textures/节奏模式/横条.png",
+                "Assets/[1]Local/Textures/节奏模式/空横条.png",
+                "Assets/[1]Local/Textures/节奏模式/背景.png",
+                "Assets/[1]Local/Textures/节奏模式/节奏模式 效果图.png",
+                "Assets/[1]Local/Textures/节奏模式/飞船.png"
+            ]
+        },
+        {
+            "BundleName": "localdefaultpackage_assets_[1]local_fonts.bundle",
+            "FileName": "7d6ec352ca929197bd456b2329c146f1.bundle",
+            "FileHash": "7d6ec352ca929197bd456b2329c146f1",
+            "FileCRC": "770b7f1f",
+            "FileSize": 11238057,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/[1]Local/Fonts/飞波正点体.otf"
+            ]
+        },
+        {
+            "BundleName": "localdefaultpackage_share_assets_qframework_toolkits__corekit_packagekit_markdown_resources_skin.bundle",
+            "FileName": "41157897533f3276f424a3e12e87861b.bundle",
+            "FileHash": "41157897533f3276f424a3e12e87861b",
+            "FileCRC": "0505992e",
+            "FileSize": 217433,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/SourceCodePro-Light.otf",
+                "Assets/QFramework/Toolkits/_CoreKit/PackageKit/Markdown/Resources/Skin/SourceCodePro-Regular.otf"
+            ]
+        }
+    ],
+    "IndependAssets": []
+}
